@@ -1,0 +1,23 @@
+{
+	"name": "nanokvm-mqtt",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"dev": "bun --watch ./src/index.ts",
+		"build": "tsdown",
+		"start": "bun run ./dist/index.mjs"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	},
+	"dependencies": {
+		"mqtt": "^5.14.1",
+		"tsdown": "^0.16.4",
+		"tslog": "^4.10.2",
+		"zod": "^4.1.12"
+	}
+}

@@ -1,6 +1,6 @@
-import { readFile, stat } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import { join } from "node:path";
-import { $, Glob } from "bun";
+import { Glob } from "bun";
 import { getMqttClient } from "./clients/mqtt/mqtt-client";
 import { NanoKVMService } from "./clients/nano-kvm/nano-kvm.service";
 import { ConfigSchema } from "./config.schema";

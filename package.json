@@ -9,6 +9,7 @@
 		"start": "bun run ./dist/index.mjs"
 	},
 	"devDependencies": {
+		"@biomejs/biome": "2.3.5",
 		"@types/bun": "latest"
 	},
 	"peerDependencies": {
